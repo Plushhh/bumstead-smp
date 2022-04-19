@@ -1,2 +1,2 @@
 # BumsteadSMP
-This is an smp created by Cinnamon for not only Bumstead's homeroom, but the entire school.
+This is an SMP (survival multiplayer server)  created by Mrs. Bumstead's homeroom. It is intended for the entire school
