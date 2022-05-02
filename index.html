@@ -1,230 +1,900 @@
-
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Cayman theme | Cayman is a clean, responsive theme for GitHub Pages.</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Cayman theme" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Cayman is a clean, responsive theme for GitHub Pages." />
-<meta property="og:description" content="Cayman is a clean, responsive theme for GitHub Pages." />
-<link rel="canonical" href="https://pages-themes.github.io/cayman/" />
-<meta property="og:url" content="https://pages-themes.github.io/cayman/" />
-<meta property="og:site_name" content="Cayman theme" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Cayman theme" />
-<script type="application/ld+json">
-{"description":"Cayman is a clean, responsive theme for GitHub Pages.","url":"https://pages-themes.github.io/cayman/","@type":"WebSite","headline":"Cayman theme","name":"Cayman theme","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+    <meta name="description" content="The official Vector Website: Vector is a powerful Addon for Meteor Client offering many utility and strong combat modules"/>
+    <meta name="theme-color" content="#4EC76E"/>
+    <meta name="keywords" content="Minecraft, Meteor Client, Meteor Addon, Vector Addon, Vector"/>
+    <meta name="author" content="cally72jhb"/>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/cayman/assets/css/style.css?v=29f8a343aad3bd9eea1173c01ab45a8a20acd7ff">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Vector Addon"/>
+    <meta property="og:description" content="Vector is a powerful open-source Addon for Meteor Client. &#x0A; It offers many utility and strong combat modules &#x0A; aswell as working flight bypasses for most servers. &#x0A; &#x0A; https://github.com/cally72jhb/vector-addon/releases/latest"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/cally72jhb/website/main/assets/vector-malachite.png"/>
+    <meta property="og:url" content="https://cally72jhb.github.io/website"/>
 
-<!-- Setup Google Analytics -->
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/cally72jhb/website/main/assets/icon.png"/>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 
+    <title>Vector Addon</title>
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/cayman/favicon.ico" -->
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+        @import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        @import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 
-<!-- end custom head snippets -->
+        @font-face {
+            font-family: "Varela Round", sans-serif;
+        }
 
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+        ::-moz-selection {
+            color: #6EC282;
+            background: rgba(78, 138, 93, 0);
+        }
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Cayman theme</h1>
-      <h2 class="project-tagline">Cayman is a clean, responsive theme for GitHub Pages.</h2>
-      
-        <a href="https://github.com/pages-themes/cayman" class="btn">View on GitHub</a>
-      
-      
-        <a href="https://github.com/pages-themes/cayman/zipball/master" class="btn">Download .zip</a>
-        <a href="https://github.com/pages-themes/cayman/tarball/master" class="btn">Download .tar.gz</a>
-      
-    </header>
+        ::selection {
+            color: #6EC282;
+            background: rgba(78, 138, 93, 0);
+        }
 
-    <main id="content" class="main-content" role="main">
-      <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-<p><a href="./another-page.html">Link to another page</a>.</p>
+        *:focus,
+        *:active {
+            outline: none !important;
+            -webkit-tap-highlight-color: transparent;
+        }
 
-<p>There should be whitespace between paragraphs.</p>
+        html,
+        body {
+            color: #FFFFFF;
+            background-color: #000000;
+            font-family: "Varela Round", sans-serif;
+        }
 
-<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+        .container {
+            width: 100%;
+            height: 100%;
+            color: #FFFFFF;
+            font-weight: 700;
+            letter-spacing: 0.0625em;
+            line-height: 1.35;
+            background-color: #000000;
+            background-image: linear-gradient(
+                #24252A,
+                #24252A,
+                #000000,
+                #000000,
+                #000000
+            );
+            font-family: "Varela Round", sans-serif;
+            scroll-behavior: smooth;
+        }
 
-<h1 id="header-1">Header 1</h1>
+        .wrapper {
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 300px;
+        }
 
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+        .parallax-layer {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            transform-style: preserve-3d;
+        }
 
-<h2 id="header-2">Header 2</h2>
+        .parallax__layer {
+            position: absolute;
+            top: -60%;
+            left: 0;
+            right: 0;
+            bottom: 0;
 
-<blockquote>
-  <p>This is a blockquote following a header.</p>
-
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
-</blockquote>
-
-<h3 id="header-3">Header 3</h3>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h4 id="header-4">Header 4</h4>
-
-<ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
-
-<h5 id="header-5">Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
-
-<ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item</li>
-</ul>
-
-<h3 id="small-image">Small image</h3>
-
-<p><img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" /></p>
-
-<h3 id="large-image">Large image</h3>
-
-<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="Branching" /></p>
-
-<h3 id="definition-lists-can-be-used-with-html-syntax">Definition lists can be used with HTML syntax.</h3>
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
 
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/pages-themes/cayman">cayman</a> is maintained by <a href="https://github.com/pages-themes">pages-themes</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </main>
-  </body>
+        /* Layers */
+
+
+        .layer-0 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-0.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(-600px) scale(3);
+	        -webkit-transform: translateZ(-600px) scale(3);
+            z-index: 1;
+        }
+
+        .layer-1 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-1.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(-525px) scale(2.75);
+            -webkit-transform: translateZ(-525px) scale(2.75);
+            z-index: 2;
+        }
+
+        .layer-2 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-4.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(-400px) scale(2.33333333);
+            -webkit-transform: translateZ(-400px) scale(2.33333333);
+            z-index: 3;
+        }
+
+        .layer-3 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-2.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(-250px) scale(1.833333333);
+            -webkit-transform: translateZ(-250px) scale(1.833333333);
+            z-index: 4;
+        }
+
+        .layer-4 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-3.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(-125px) scale(1.4167);
+            -webkit-transform: translateZ(-125px) scale(1.4167);
+            z-index: 5;
+        }
+
+        .layer-5 {
+            background: url("https://raw.githubusercontent.com/cally72jhb/website/main/assets/layer-5.png") no-repeat center;
+            background-size: cover;
+            transform: translateZ(0) scale(1);
+            -webkit-transform: translateZ(0) scale(1);
+            z-index: 6;
+        }
+
+        .fog-layer {
+            background: linear-gradient(
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 0) 25%,
+                rgba(0, 0, 0, 1) 100%
+            );
+            top: -15%;
+            background-size: cover;
+            transform: translateZ(0) scale(1);
+            -webkit-transform: translateZ(0) scale(1);
+            z-index: 7;
+        }
+
+
+        /* Containers */
+
+
+        .foreground-text {
+            top: 60%;
+            left: 50%;
+            right: 0;
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            text-align: center;
+            font-size: 11.12347vh;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+
+            -webkit-transition: all 0.25s ease 0s;
+            transition: all 0.25s ease 0s;
+
+            -webkit-animation: big-glow 1s ease-in-out infinite alternate;
+            -moz-animation: big-glow 1s ease-in-out infinite alternate;
+            animation: big-glow 1s ease-in-out infinite alternate;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .info-container {
+            transform: translateZ(0) scale(1);
+            z-index: 8;
+
+            background-color: #000000;
+
+            top: -3px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .text-container {
+            font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+            transform: translateZ(0) scale(1);
+            z-index: 8;
+
+            background: linear-gradient(
+                #000000 5%,
+                #0F0F0F 25%,
+                #232323 75%,
+                #323232 85%,
+                #4B4B4B 100%
+            );
+
+            top: -3px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            text-align: center;
+            font-size: 16px;
+        }
+
+
+
+        /* Utilities */
+
+
+
+        /* Button */
+
+
+        button {
+            padding: 9px 25px;
+            background-color: #0087AA;
+            cursor: pointer;
+            border: none;
+            border-radius: 50px;
+            font-family: "Montserrat", sans-serif;
+    		font-weight: 500;
+    		font-size: 16px;
+    		color: #EDF0F1;
+    		text-decoration: none;
+
+    		transition: all 0.3s ease 0s;
+            -webkit-transition: all 0.3s ease 0s;
+
+    		-webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+            -webkit-animation: none;
+            -moz-animation: none;
+            animation: none;
+        }
+
+        button:hover {
+            background-color: rgba(0, 135, 170, 0.8);
+            font-size: 20px;
+
+            transition: all 0.3s ease 0s;
+            -webkit-transition: all 0.3s ease 0s;
+
+            text-shadow:
+                    0 0 0 rgba(255, 255, 255, 0.5),
+                    0 0 5px rgba(255, 255, 255, 0.5);
+                    0 0 10px rgba(255, 255, 255, 0.5),
+        }
+
+
+        /* Animated Title Texts */
+
+
+        .title-all {
+            width: -moz-fit-content;
+            width: fit-content;
+            position: relative;
+            block-size: fit-content;
+            max-width: 100% auto;
+            cursor: pointer;
+            font-size: 25px;
+
+            transition: all 0.25s ease 0s;
+            -webkit-transition: all 0.25s ease 0s;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .title-all:hover {
+            font-size: 27px;
+            opacity: 0.95;
+
+            transition: all 0.75s ease 0s;
+            -webkit-transition: all 0.75s ease 0s;
+        }
+
+        .title-all:hover:before {
+            visibility: visible;
+            transform: scaleX(1);
+            opacity: 0.95;
+
+            transition: all 0.75s ease 0s;
+            -webkit-transition: all 0.75s ease 0s;
+        }
+
+
+        /* Animated Center Text */
+
+
+        .center-title:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+	        visibility: hidden;
+	        border-radius: 10px;
+            background-color: #FFFFFF;
+
+            transform: scaleX(0);
+            transition: all 0.25s ease-in-out;
+            -webkit-transition: all 0.25s ease-in-out;
+        }
+
+
+        /* Animated Left Text */
+
+
+        .left-title:before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+	        border-radius: 10px;
+            background-color: #000000;
+
+            transform: scaleX(0);
+	        -webkit-transform: scaleX(0);
+            transform-origin: top left;
+            transition: transform 0.3s ease;
+            -webkit-transition: transform 0.3 ease;
+        }
+
+
+        /* Animated Slow Left Text */
+
+
+        .left-title-slow:before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+	        border-radius: 10px;
+            background-color: #FFFFFF;
+
+            transform: scaleX(0);
+	        -webkit-transform: scaleX(0);
+            transform-origin: top left;
+            transition: transform 0.5s ease;
+            -webkit-transition: transform 0.5 ease;
+        }
+
+
+        /* Image */
+
+
+        img {
+  			border-radius: 10px;
+  			-webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+		}
+
+		.image {
+		    width: 576px;
+		    height: 324px;
+
+	        transform: scale(1);
+	        -webkit-transform: scale(1);
+
+	        -webkit-transition: 0.75s ease-in-out;
+	        transition: 0.75s ease-in-out;
+
+	        filter: blur(0.8px);
+	        -webkit-filter: blur(0.8px);
+		}
+
+		.image:hover {
+		    width: 633px;
+		    height: 356px;
+		    border-radius: 25px;
+
+	        transform: scale(1.015);
+	        -webkit-transform: scale(1.015);
+
+	        filter: blur(0.5px);
+	        -webkit-filter: blur(0.5px);
+		}
+
+
+        /* Sections */
+
+
+        .modules {
+            top: 50%;
+            height: 835px;
+            max-width: 100%;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            color: rgb(100, 100, 100);
+        }
+
+        .commands {
+            height: 300px;
+            max-width: 100%;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            color: rgb(100, 100, 100);
+        }
+
+        .light-1 {
+            margin: 0;
+            height: 525px;
+            max-width: 100%;
+            color: rgb(25, 25, 25);
+            background-color: rgb(200, 200, 200);
+
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px 25px;
+        }
+
+        .light-2 {
+            top: 40px;
+            margin: 0;
+            height: 475px;
+            max-width: 100%;
+            color: rgb(25, 25, 25);
+            background-color: rgb(200, 200, 200);
+
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px 25px;
+        }
+
+        .dark {
+            top: 125px;
+            margin: 0;
+            height: 500px;
+            max-width: 100%;
+            max-height: 100%;
+            color: rgb(215, 215, 215);
+            background-color: #000000;
+
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px 25px;
+        }
+
+
+        /* Header & Icons */
+
+
+        .header {
+            top: 0;
+            width: 100%;
+            position: fixed;
+
+            transition: all 0.5s ease 0s;
+            -webkit-transition: all 0.5s ease 0s;
+            visibility: visible;
+        }
+
+
+        .icon-container {
+            transform: translateZ(0) scale(1);
+	        -webkit-transform: translateZ(0) scale(1);
+            z-index: 8;
+
+            width: 550px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+
+            left: 15px;
+            bottom: 5px;
+            margin-left: 15px;
+
+            font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+            place-items: center;
+        }
+
+        .icon-wrapper {
+            display: inline-flex;
+        }
+
+        .icon-wrapper .icon {
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            background-color: #FFFFFF;
+            color: #000000;
+
+            position: relative;
+            border-radius: 50px;
+
+            padding: 15px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+
+            cursor: pointer;
+
+            transition: all 0.5s ease 0.05s;
+            -webkit-transition: all 0.5s ease 0.05s;
+
+            transform: translateY(5px);
+	        -webkit-transform: translateY(5px);
+        }
+
+        .icon:active {
+	        transform: translateY(5px);
+	        -webkit-transform: translateY(5px);
+        }
+
+        .icon-wrapper .icon:hover {
+            font-size: 21px;
+
+            width: 200px;
+            align-items: normal;
+
+            transition: all 0.25s ease 0s;
+            -webkit-transition: all 0.25s ease 0s;
+        }
+
+        .icon-wrapper .icon:hover span {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+
+            transition: all 0.5s ease 0.05s;
+            -webkit-transition: all 0.5s ease 0.05s;
+        }
+
+        .icon-wrapper .youtube:hover {
+            background-color: #DE463D;
+            color: #FFFFFF;
+        }
+
+        .icon-wrapper .patreon:hover {
+            background-color: #F16651;
+            color: #FFFFFF;
+        }
+
+        .icon-wrapper .discord:hover {
+            background-color: #7288DA;
+            color: #FFFFFF;
+        }
+
+        .icon-wrapper .github:hover {
+            background-color: #454545;
+            color: #FFFFFF;
+        }
+
+
+        /* Other */
+
+
+        .description {
+            display: block;
+	        cursor: pointer;
+        }
+
+        .info {
+            -webkit-transition: transform 0.15s ease 0s, color 0.25s ease 0s;
+            transition: transform 0.15s ease 0s, color 0.25s ease 0s;
+	        cursor: pointer;
+        }
+
+        .info:hover {
+            color: #EBEBEB;
+            transform: scale(1.25);
+	        -webkit-transform: scale(1.25px);
+            letter-spacing: 1.25px;
+        }
+
+        .custom-link {
+            color: #A5D7AF;
+            text-decoration: none;
+
+            transition: all 0.25s ease 0s;
+            -webkit-transition: all 0.25s ease 0s;
+        }
+
+        .custom-link:hover {
+            filter: brightness(105%);
+
+            text-shadow:
+                    0 0 0px rgba(165, 215, 175, 0.5),
+                    0 0 5px rgba(165, 215, 175, 0.5),
+                    0 0 10px rgba(165, 215, 175, 0.25);
+        }
+
+
+        /* For small screens */
+
+
+		@media only screen and (max-width: 1100px) {
+    		.description {
+        		display: none !important;
+    		}
+
+    		.foreground-text {
+                font-size: 8.89877vh;
+
+                -webkit-animation: small-glow 1.5s ease-in-out infinite alternate;
+                -moz-animation: small-glow 1.5s ease-in-out infinite alternate;
+                animation: small-glow 1.5s ease-in-out infinite alternate;
+            }
+
+            .text-container {
+                font-size: 13px;
+            }
+
+            .modules {
+                font-size: 15px;
+            }
+
+            .commands {
+                font-size: 15px;
+            }
+
+            .light-1 {
+                height: 550px;
+                font-size: 12px;
+            }
+
+            .light-2 {
+                height: 525px;
+                font-size: 12px;
+            }
+
+            .dark {
+                height: 525px;
+                font-size: 12px;
+            }
+
+            .image {
+		        width: 384px;
+		        height: 216px;
+
+		        filter: blur(0.25px);
+	            -webkit-filter: blur(0.25px);
+		    }
+
+		    .row-title:hover:before {
+                visibility: hidden;
+                transform: scaleX(0);
+            }
+
+		    .image:hover {
+		        width: 384px;
+		        height: 216px;
+
+		        -webkit-transform: scale(1.025);
+	            transform: scale(1.025);
+
+	            -webkit-transition: 0.5s ease-in-out;
+	            transition: 0.5s ease-in-out;
+
+	            filter: blur(0px);
+	            -webkit-filter: blur(0px);
+		    }
+
+		    .header {
+		        visibility: hidden;
+		    }
+		}
+
+		@-webkit-keyframes big-glow {
+            from {
+                text-shadow:
+                    0 0 10px #FFFFFF,
+                    0 0 20px #FFFFFF,
+                    0 0 30px #6EC282;
+            }
+
+            to {
+                text-shadow:
+                    0 0 20px #FFFFFF,
+                    0 0 30px #6EC282,
+                    0 0 40px #6EC282;
+            }
+        }
+
+        @-webkit-keyframes small-glow {
+            from {
+                text-shadow:
+                    0 0 5px #FFFFFF,
+                    0 0 10px #FFFFFF,
+                    0 0 20px #6EC282;
+            }
+
+            to {
+                text-shadow:
+                    0 0 20px #FFFFFF,
+                    0 0 25px #6EC282,
+                    0 0 35px #6EC282;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="parallax-layer">
+            <div class="parallax__layer layer-0"></div>
+            <div class="parallax__layer layer-1"></div>
+            <div class="parallax__layer layer-2"></div>
+            <div class="parallax__layer layer-3"></div>
+            <div class="parallax__layer layer-4">
+                <div class="foreground-text">VECTOR</div>
+            </div>
+            <div class="parallax__layer layer-5"></div>
+            <div class="parallax__layer fog-layer"></div>
+        </div>
+
+        <div class="info-container">
+            <div class="text-container text">
+                <div class="modules">
+                    <div>
+                        <center><p class="title-all center-title" style="color: rgb(225, 225, 225);">Modules</p></center>
+
+                        <br/>
+                        <div>
+                            <div class="info"><span>Action Renderer</span><span style="display: inline" class="description">  ||  Renders your own block interactions</span><br/></div>
+                            <div class="info"><span>Anti Lag Back</span><span style="display: inline" class="description">  ||  Cancels huge rubberband from anticheats</span><br/></div>
+                            <div class="info"><span>Anti Piston Push</span><span style="display: inline" class="description">  ||  Trys to prevent horizontal piston pushing</span><br/></div>
+                            <div class="info"><span>Anti Prone</span><span style="display: inline" class="description">  ||  Stops you from being forced in the swimming animation client-side</span><br/></div>
+                            <div class="info"><span>Auto Cope</span><span style="display: inline" class="description">  ||  Replies to user defined messages or copes after death</span><br/></div>
+                            <div class="info"><span>Auto Ez</span><span style="display: inline" class="description">  ||  Automatically sends custom messages after killing or popping a player</span><br/></div>
+                            <div class="info"><span>Auto Interact</span><span style="display: inline" class="description">  ||  Interacts with selected entities or blocks for you</span><br/></div>
+                            <div class="info"><span>Bed Bomb</span><span style="display: inline" class="description">  ||  Places and blows up beds near your targets to deal a lot of damage</span><br/></div>
+                            <div class="info"><span>Bow Bomb</span><span style="display: inline" class="description">  ||  Spoofs projectiles to make them travel further and do more damage</span><br/></div>
+                            <div class="info"><span>Chorus Predict</span><span style="display: inline" class="description">  ||  Predicts where your chorus fruit will teleport you</span><br/></div>
+                            <div class="info"><span>Death Animations</span><span style="display: inline" class="description">  ||  Summons custom particles when a player dies</span><br/></div>
+                            <div class="info"><span>Entity Fly</span><span style="display: inline" class="description">  ||  Allowes to fly with any living rideable entity</span><br/></div>
+                            <div class="info"><span>Fast Tower</span><span style="display: inline" class="description">  ||  A bypass for faster towering on most servers</span><br/></div>
+                            <div class="info"><span>Insta Mine Plus</span><span style="display: inline" class="description">  ||  Trys to immediately mine blocks</span><br/></div>
+                            <div class="info"><span>Inventory Scroll</span><span style="display: inline" class="description">  ||  Allows you to scroll in your hotbar while having screens opened</span><br/></div>
+                            <div class="info"><span>Item Release</span><span style="display: inline" class="description">  ||  Automatically releases loaded items after a set delay</span><br/></div>
+                            <div class="info"><span>No Block Trace</span><span style="display: inline" class="description">  ||  Allows you to interact through selected blocks when holding a pickaxe</span><br/></div>
+                            <div class="info"><span>No Collision</span><span style="display: inline" class="description">  ||  Removes selected block or world border collisions client-side</span><br/></div>
+                            <div class="info"><span>No Fluid</span><span style="display: inline" class="description">  ||  Removes water and lava collision client-side</span><br/></div>
+                            <div class="info"><span>Packet Consume</span><span style="display: inline" class="description">  ||  Consumes eatable or drinkable items with packets</span><br/></div>
+                            <div class="info"><span>Packet Fly</span><span style="display: inline" class="description">  ||  Fly with packets on most servers</span><br/></div>
+                            <div class="info"><span>Packet Logger</span><span style="display: inline" class="description">  ||  Prints out some packet debug in chat</span><br/></div>
+                            <div class="info"><span>Packet Place</span><span style="display: inline" class="description">  || Place blocks with packets to bypass desyncing with the server</span><br/></div>
+                            <div class="info"><span>Ping Spoof</span><span style="display: inline" class="description">  ||  Spoofs your ping without changing any gameplay</span><br/></div>
+                            <div class="info"><span>Placeholders</span><span style="display: inline" class="description">  ||  Set custom placeholders to replace when sending messages</span><br/></div>
+                            <div class="info"><span>Pop Renderer</span><span style="display: inline" class="description">  || Makes the totem pop animation more pretty</span><br/></div>
+                            <div class="info"><span>Portal God Mode</span><span style="display: inline" class="description">  ||  Gives you invincibility when leaving a portal</span><br/></div>
+                            <div class="info"><span>Reverse Step Bypass</span><span style="display: inline" class="description">  ||  Allows you to immediately step down up to 5 Blocks</span><br/></div>
+                            <div class="info"><span>Rubberband Fly</span><span style="display: inline" class="description">  ||  A very customizable low-packet packet fly alternative</span><br/></div>
+                            <div class="info"><span>Skeleton ESP</span><span style="display: inline" class="description">  ||  Renders a players skeleton</span><br/></div>
+                            <div class="info"><span>Step Plus</span><span style="display: inline" class="description">  ||  A 1.25-Block step bypass for NCP-Anticheats</span><br/></div>
+                            <div class="info"><span>Storage Viewer</span><span style="display: inline" class="description">  ||  Shows you the content of storage blocks around you</span><br/></div>
+                            <div class="info"><span>Surround Plus</span><span style="display: inline" class="description">  ||  Surrounds you in inexplodable blocks to prevent much explosion damage</span><br/></div>
+                            <div class="info"><span>Vector Presence</span><span style="display: inline" class="description">  ||  A Presence for Discord to show that you are playing Vector Addon</span><br/></div>
+                            <div class="info"><span>Welcomer</span><span style="display: inline" class="description">  ||  Sends a custom message when a player joins or leaves the server</span><br/></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commands">
+                    <div>
+                        <center><p class="title-all center-title" style="color: rgb(225, 225, 225);">Commands</p></center>
+
+                        <br/>
+                        <div style="color: #878787;">
+                            <div class="info"><span>.item</span><span style="display: inline" class="description">  ||  Allows you to put any item in any slot in your inventory</span><br/></div>
+                            <div class="info"><span>.mute</span><span style="display: inline" class="description">  ||  Mutes players client-side</span><br/></div>
+                            <div class="info"><span>.stats</span><span style="display: inline" class="description">  ||  Shows your current stats for yourself or others</span><br/></div>
+                            <div class="info"><span>.target</span><span style="display: inline" class="description">  ||  Target players to prioritise them in combat modules</span><br/></div>
+                            <div class="info"><span>.trashcan</span><span style="display: inline" class="description">  ||  Allows you to silently destroy any item in your hand without dropping it</span><br/></div>
+                            <div class="info"><span>.uuid</span><span style="display: inline" class="description">  ||  Tells you a players uuid</span><br/></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="light-1">
+                    <img class="image" src="https://raw.githubusercontent.com/cally72jhb/website/main/assets/bed-bomb.gif"/>
+                    <div align="left">
+                        <p class="title-all left-title row-title" style="color: rgb(5, 5, 5); font-size: 25px;">Auto Bed / Bed Bomb:</p>
+                        <br/>
+                        <p>Vector has a completely customizable Bed Aura</p>
+                        <p>with a lot of settings.</p>
+                        <p>The module has different modes for chasing targets</p>
+                        <p>or damaging them in holes by 0 tick placing</p>
+                        <p>to give targets no chance to surround.</p>
+                        <p>The Aura has a smart placement and an</p>
+                        <p>inbuilt auto city to break a targets surround easily.</p>
+                    </div>
+                </div>
+
+                <div class="light-2">
+                    <div align="left">
+                        <p class="title-all left-title row-title" style="color: rgb(5, 5, 5); font-size: 25px;">Rubberband Fly:</p>
+                        <br/>
+                        <p>Vector is one of the first ever clients to add such</p>
+                        <p>a module. The module allows for fast horizontal flight</p>
+                        <p>by rubberbanding you forwards.</p>
+                        <p>It is very customizable and offers its users</p>
+                        <p>a great way to short distance travel, fly over</p>
+                        <p>small gaps or escape from death.</p>
+                    </div>
+                    <img class="image" src="https://raw.githubusercontent.com/cally72jhb/website/main/assets/rubberband-fly.gif"/>
+                </div>
+
+                <div class="dark">
+                    <div align="left">
+                        <h3 class="title-all left-title-slow" style="color: rgb(255, 255, 255); font-size: 25px;">About:</h3>
+                        <br/>
+                        <span>Vector Addon is a powerful Addon for </span><a class="custom-link" href="https://meteorclient.com/" target="_blank">Meteor Client</a><span>.</span><br/>
+                        <p>It was made public on Dec 11th, 2021</p>
+                        <span>by its developer </span><a class="custom-link" href="https://github.com/cally72jhb" target="_blank">cally72jhb</a><span>.</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/cally72jhb/vector-addon/releases/latest" target="_blank"><button>Download</button></a>
+                        <a href="https://discord.gg/A3nYgbKeXR" target="_blank"><button>Discord</button></a>
+                        <a href="https://github.com/cally72jhb" target="_blank"><button>GitHub</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="icon-container icon-wrapper">
+        <a class="icon youtube"><span><i class="fab fa-youtube"></i></span></a>
+
+        <a href="https://discord.gg/A3nYgbKeXR" target="_blank" class="icon discord"><span><i class="fab fa-discord"></i></span></a>
+
+        <a href="https://github.com/cally72jhb/vector-addon" target="_blank" class="icon github"><span><i class="fab fa-github"></i></span></a>
+
+        <a class="icon patreon"><span><i class="fab fa-patreon"></i></span></a>
+    </div>
+</div>
+
+</body>
 </html>
